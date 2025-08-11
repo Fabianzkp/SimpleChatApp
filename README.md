@@ -8,7 +8,7 @@ The software consists of two main components: a server that manages multiple cli
 
 The purpose of writing this software was to gain hands-on experience with network programming concepts, understand how real-time communication applications work under the hood, and practice implementing concurrent server applications that can handle multiple clients simultaneously.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/8M5OP42_qcc)
 
 ## Network Communication
 
@@ -25,6 +25,7 @@ The message format uses **JSON (JavaScript Object Notation)** encoded in UTF-8 f
 - `timestamp`: Time when the message was sent (HH:MM:SS format)
 
 Example message formats:
+
 ```json
 // Broadcast message
 {"type": "message", "sender": "Alice", "message": "Hello everyone!", "timestamp": "14:30:25"}
@@ -41,11 +42,13 @@ Example message formats:
 The software was developed using the following tools and technologies:
 
 **Development Tools:**
+
 - Visual Studio Code as the primary code editor
 - Git for version control
 - Windows Command Prompt for testing and running the applications
 
 **Programming Language and Libraries:**
+
 - **Python 3.x** - Main programming language
 - **socket** - Built-in Python library for network communication
 - **threading** - Built-in Python library for handling multiple client connections concurrently
@@ -56,24 +59,24 @@ The software was developed using the following tools and technologies:
 
 During the development of this project, the following resources were particularly helpful:
 
-* [Python Socket Programming Documentation](https://docs.python.org/3/library/socket.html) - Official Python documentation for socket programming
-* [Real Python - Socket Programming Guide](https://realpython.com/python-sockets/) - Comprehensive tutorial on Python socket programming
-* [Python Threading Documentation](https://docs.python.org/3/library/threading.html) - Official documentation for Python threading
-* [JSON in Python](https://docs.python.org/3/library/json.html) - Official documentation for JSON handling in Python
-* [TCP/IP Protocol Suite Overview](https://en.wikipedia.org/wiki/Internet_protocol_suite) - Background information on TCP/IP networking
-* [OSI Model Explained](https://en.wikipedia.org/wiki/OSI_model) - Understanding network communication layers
+- [Python Socket Programming Documentation](https://docs.python.org/3/library/socket.html) - Official Python documentation for socket programming
+- [Real Python - Socket Programming Guide](https://realpython.com/python-sockets/) - Comprehensive tutorial on Python socket programming
+- [Python Threading Documentation](https://docs.python.org/3/library/threading.html) - Official documentation for Python threading
+- [JSON in Python](https://docs.python.org/3/library/json.html) - Official documentation for JSON handling in Python
+- [TCP/IP Protocol Suite Overview](https://en.wikipedia.org/wiki/Internet_protocol_suite) - Background information on TCP/IP networking
+- [OSI Model Explained](https://en.wikipedia.org/wiki/OSI_model) - Understanding network communication layers
 
 ## Future Work
 
 Several enhancements could be made to improve the functionality and user experience of this chat application:
 
-* Add a graphical user interface (GUI) using tkinter or PyQt for better user experience
-* Implement user authentication and secure login system
-* Add support for chat rooms or channels for organized conversations
-* Implement message history and persistence using a database
-* Add file sharing capabilities between users
-* Implement end-to-end encryption for secure private messaging
-* Add support for emoji and rich text formatting
-* Create a web-based client interface using HTML/CSS/JavaScript
-* Add administrative features like user moderation and chat logging
-* Implement reconnection handling for improved reliability
+- Add a graphical user interface (GUI) using tkinter or PyQt for better user experience
+- Implement user authentication and secure login system
+- Add support for chat rooms or channels for organized conversations
+- Implement message history and persistence using a database
+- Add file sharing capabilities between users
+- Implement end-to-end encryption for secure private messaging
+- Add support for emoji and rich text formatting
+- Create a web-based client interface using HTML/CSS/JavaScript
+- Add administrative features like user moderation and chat logging
+- Implement reconnection handling for improved reliability
